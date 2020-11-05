@@ -3,12 +3,12 @@ public class Rezultat {
     private static double u = 1;
 
     public static double analitic(double h) {
-        return Math.pow(h, 3) - h + 1;
+        return -4*Math.pow(h, 3) + 3*Math.pow(h,2) + 1;
     }
 
     public static double eulre(double h) {
 
-        u = u + h * (3*Math.pow(x,2)-1);
+        u = u + h * (-12*Math.pow(x,2)+6*x);
         x = x + h;
         return u;
     }

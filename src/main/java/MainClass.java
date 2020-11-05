@@ -6,7 +6,7 @@ public class MainClass {
 //        for(double i = 0; i <= 10; i++)
 //            System.out.println(Rezultat.analitic(i/10D));
 
-        for(int i = 1; i <= 5; i++ )
+        for(int i = 0; i <= 5; i++ )
             System.out.println(Rezultat.eulre(h2));
     }
 }
